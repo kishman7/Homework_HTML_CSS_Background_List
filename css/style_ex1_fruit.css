@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(202, 164, 164);
+}
+
+ol {
+    color: white;
+}
+
+.custom-list{
+    list-style: none;
+    counter-reset: count;
+    color: white;
+}
+
+.custom-list li{
+counter-increment: count;
+}
+
+.custom-list li ::before {
+content: counter(count, decimal) ".  ";
+background-color: rgb(204, 138, 126);
+padding: 0 0 0 10px;
+}
+
+li{
+    background-color:rgb(204, 138, 126);
+    margin-bottom: 10px;
+}
+
+span {
+    background: rgb(199, 36, 36);
+    padding: 0 10px 0 0 ;
+}

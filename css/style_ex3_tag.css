@@ -1,0 +1,14 @@
+dt{
+    background-color: rgb(48, 70, 46);
+    color: white;
+    height: 30px;
+    padding-left: 55px;
+    padding-top: 10px;
+}
+dd{
+    background-color: rgb(122, 153, 110);
+    color: white;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding: 10px;
+}

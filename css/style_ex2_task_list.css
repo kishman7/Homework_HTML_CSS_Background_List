@@ -1,0 +1,36 @@
+ul{
+    list-style: none;
+}
+ li{width: auto;
+height: 30px;}
+
+.time {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.first {
+    background-color: rgb(176, 221, 224);
+    list-style-image: url(../icons/unchecked_16.png);
+    list-style-position: inside;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.second {
+    background-color: rgb(130, 202, 207);
+    list-style-image: url(../icons/unchecked_16.png);
+    list-style-position: inside;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.third {
+    background-color: #dae1e4;
+    list-style-image: url(../icons/checked_16.png);
+    list-style-position: inside;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration: line-through;
+}
